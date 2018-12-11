@@ -26,7 +26,7 @@ export default function About(props) {
 		UPenn's
 		Introduction to Web Development, also on <a target="_blank" href="www.edx.org">www.edx.org</a>, 
 		is another course from which I learned a lot. I've also worked my way through the 
-		curriculum at <a target="_blank" href="www.freecodecamp.org">www.freecodecamp.org</a>, and 
+		curriculum at <a target="_blank" href="https://www.freecodecamp.org">www.freecodecamp.org</a>, and 
 		there are few things I enjoy more than keeping my coding chops fresh with the puzzles at <a target="_blank" href="www.codewars.com">www.codewars.com</a></p>
 
 		<p>In my previous life, I was a chemistry teacher in the New York City public schools 

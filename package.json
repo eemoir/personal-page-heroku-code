@@ -1,6 +1,9 @@
 {
   "name": "personal-page-server",
   "version": "0.1.0",
+  "engines": {
+    "node": "10.14.1"
+  },
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.18.3",

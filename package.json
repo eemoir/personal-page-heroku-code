@@ -1,0 +1,12 @@
+{
+  "name": "personal-page-server",
+  "version": "0.1.0",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

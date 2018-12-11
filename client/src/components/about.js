@@ -27,15 +27,15 @@ export default function About(props) {
 		Introduction to Web Development, also on <a target="_blank" href="www.edx.org">www.edx.org</a>, 
 		is another course from which I learned a lot. I've also worked my way through the 
 		curriculum at <a target="_blank" href="www.freecodecamp.org">www.freecodecamp.org</a>, and 
-		there are few things I enjoy more than keeping my coding chops fresh with Kata 
-		at <a target="_blank" href="www.codewars.com">www.codewars.com</a></p>
+		there are few things I enjoy more than keeping my coding chops fresh with the puzzles at <a target="_blank" href="www.codewars.com">www.codewars.com</a></p>
 
 		<p>In my previous life, I was a chemistry teacher in the New York City public schools 
 		and earned a MA in German Literature from Columbia University (go figure). In my free time, 
 		I enjoy computer games, especially 4X games, and hanging out with 
-		my cat friends. I'm also a blue belt in jiu jitsu 
-		and maintain a daily meditation practice. 
-		While you're here, please check out my projects and/or drop me a line through my contact tab. 
+		my human and feline friends. I'm also a blue belt in jiu jitsu 
+		and maintain a daily meditation practice.</p>
+
+		<p>While you're here, please check out my projects and/or drop me a line through my contact tab. 
 		Otherwise, you can find me on LinkedIn here, on CodeWars here, and on GitHub here.
 		</p>
 		</div>

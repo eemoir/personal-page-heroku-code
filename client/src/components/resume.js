@@ -23,7 +23,7 @@ export default function Resume(props) {
 		<h2>Chemistry Teacher, NYC Dept. of Education, New York, NY, June 2016 - Jan. 2018</h2>
 		<ul>
 		<li>Working collaboratively with a grade team, developed curriculum and taught four sections of 11th grade chemistry at South Bronx Preparatory.</li>
-		<li>Increased number of students taking the Regents exam from one to seven, with six passing, and received a “Highly Effective” rating from the Board of Education.
+		<li>Increased number of students taking the Regents Exam from one to seven, with six passing, and received a “Highly Effective” rating from the Board of Education.
 </li>
 		</ul>
 		<h2>Union Organizer, UAW (Graduate Workers of Columbia), New York, NY, Jan. 2016 - June 2016</h2>
@@ -43,7 +43,7 @@ export default function Resume(props) {
 		</ul>
 		<h2>Fulbright English Teaching Assistant, Fulbright Commission, Germany, Sep. 2011 - June 2012</h2>
 		<ul>
-		<li>Developed curriculum for public secondary school English classes using a focus on young adult novels.</li>
+		<li>Developed curriculum for public secondary school English classes in Norderstedt, Germany, using a focus on young adult novels.</li>
 		<li>Co-taught English classes in grades 6, 10 and 13 alongside tenured faculty.</li>
 		</ul>
 		<h1>Education</h1>
@@ -61,7 +61,7 @@ export default function Resume(props) {
 		<li>National Merit Scholar.</li>
 		</ul>
 		</ul>
-		<h1>Other skills and Professional Development</h1>
+		<h1>Other Skills</h1>
 		<ul>
 		<li>Fluent in German (written and conversational), translation proficiency in Spanish and Dutch.</li>
 		<li>Award-winning classical cellist and pianist with extensive knowledge of music theory.</li>

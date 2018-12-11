@@ -15,6 +15,7 @@ app.get('*', (req,res) =>{
 
 app.post('*', (req,res) => {
 	console.log(req.body.name)
+	res.sendFile(path.join(__dirname+'/client/build/index.html'))
 })
 
 const port = process.env.PORT || 5000;

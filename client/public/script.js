@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-	document.querySelector("#form-submit").onsubmit = (event) => {
+	document.querySelector("#form-submit").onclick = (event) => {
 		event.preventDefault()
 		const request = new XMLHttpRequest()
 		let name = document.querySelector("#name").value
@@ -9,7 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
 		request.open("POST", "/", true)
 		request.onload = () => {
 			let data = request.responseText
-			console.log(data)
+			if (data.success) {
+				document.location.reload()
+				document.querySelector("#contact-form").innerHTML = "Your form has been successfully submitted!"
+			}
 		}
 		const data = new FormData()
 		data.append('name', name)

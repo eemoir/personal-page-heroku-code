@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		data.append('phone', phone)
 		data.append('message', message)
 		request.send(data)
+		return false
 	}
 
 })

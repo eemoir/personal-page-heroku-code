@@ -20,14 +20,14 @@ export default function About(props) {
 		open-source resources available, which have been particularly helpful for a
 		self-taught programmer like me. Some of my favorite sources of coding knowledge are 
 		Harvard CS50's
-		series on <a target="_blank" href="www.edx.org">www.edx.org</a>, which covers 
+		series on <a target="_blank" href="https://www.edx.org">www.edx.org</a>, which covers 
 		everything from the 
 		fundamentals of Computer Science to web and app development and even game development.
 		UPenn's
-		Introduction to Web Development, also on <a target="_blank" href="www.edx.org">www.edx.org</a>, 
+		Introduction to Web Development, also on <a target="_blank" href="https://www.edx.org">www.edx.org</a>, 
 		is another course from which I learned a lot. I've also worked my way through the 
 		curriculum at <a target="_blank" href="https://www.freecodecamp.org">www.freecodecamp.org</a>, and 
-		there are few things I enjoy more than keeping my coding chops fresh with the puzzles at <a target="_blank" href="www.codewars.com">www.codewars.com</a></p>
+		there are few things I enjoy more than keeping my coding chops fresh with the puzzles at <a target="_blank" href="https://www.codewars.com">www.codewars.com</a></p>
 
 		<p>In my previous life, I was a chemistry teacher in the New York City public schools 
 		and earned a MA in German Literature from Columbia University (go figure). In my free time, 

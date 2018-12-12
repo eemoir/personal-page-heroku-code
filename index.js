@@ -13,7 +13,7 @@ app.get('*', (req,res) =>{
     res.sendFile(path.join(__dirname+'/client/build/index.html'));
 });
 
-app.post('/#/contact', (req,res) => {
+app.post('*', (req,res) => {
 	console.log('this happened')
 	console.log(req.body.name)
 	res.json({"success": true})

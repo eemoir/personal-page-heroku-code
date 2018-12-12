@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			let email = document.querySelector("#email").value
 			let phone = document.querySelector("#phone").value
 			let message = document.querySelector("#message").value
-			request.open("POST", "/#/contact")
+			request.open("POST", "/")
 			request.onload = () => {
 				let data = request.responseText
 				console.log(data)

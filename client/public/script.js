@@ -8,7 +8,7 @@ document.addEventListener('click', (event) => {
 			let message = document.querySelector("#message").value
 			request.open("POST", "/")
 			request.onload = () => {
-				let data = request.responseText
+				let data = JSON.parse(request.responseText)
 				console.log(typeof data)
 				if (data['success']) {
 					console.log('this worked')

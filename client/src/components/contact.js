@@ -21,7 +21,7 @@ export default function Contact(props) {
 			<div className='form-row'>
 			<div className="button-div"></div>
 			<div className='button-div'>
-			<button type="button" id="form-submit" onClick={submitForm(event)}>Submit</button>
+			<button type="button" id="form-submit">Submit</button>
 			</div>
 			</div>
 		</form>

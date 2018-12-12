@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 					console.log('this worked')
 					document.location.reload()
 					document.querySelector("#contact-form").innerHTML = "Your form has been successfully submitted!"
+					return false
 				}
 			}
 			const data = new FormData()

@@ -11,8 +11,8 @@ document.addEventListener('click', (event) => {
 			request.onload = () => {
 				let data = request.responseText
 				console.log(typeof data)
-				console.log(data)
-				if (data['success']) {
+				console.log(JSON.parse(data))
+				if (JSON.parse(data)['success']) {
 					console.log('this worked')
 					document.location.reload()
 					document.querySelector("#contact-form").innerHTML = "Your form has been successfully submitted!"

@@ -10,8 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			let message = document.querySelector("#message").value
 			request.open("POST", "/")
 			request.onload = () => {
-				let data = request.responseText
-				console.log(JSON.parse(data))
+				let data = JSON.parse(request.responseText)
 				if (data['success']) {
 					console.log('this worked')
 					document.location.reload()

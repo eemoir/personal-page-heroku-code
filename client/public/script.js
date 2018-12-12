@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	let button = document.querySelector("#form-submit")
 	if (button) {
 		button.onclick = (event) => {
-			console.log('this worked')
 			event.preventDefault()
 			const request = new XMLHttpRequest()
 			let name = document.querySelector("#name").value
@@ -14,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				let data = request.responseText
 				console.log(data)
 				if (data.success) {
+					console.log('this worked')
 					document.location.reload()
 					document.querySelector("#contact-form").innerHTML = "Your form has been successfully submitted!"
 				}

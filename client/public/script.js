@@ -1,7 +1,3 @@
-document.addEventListener('DOMContentLoaded', () => {
-	
-})
-
 function submitForm(event) {
 	event.preventDefault()
 	const request = new XMLHttpRequest()

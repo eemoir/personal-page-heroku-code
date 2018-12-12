@@ -9,9 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
 			let email = document.querySelector("#email").value
 			let phone = document.querySelector("#phone").value
 			let message = document.querySelector("#message").value
-			request.open("POST", "/", true)
+			request.open("POST", "/#/contact")
 			request.onload = () => {
 				let data = request.responseText
+				console.log(data)
 				if (data.success) {
 					document.location.reload()
 					document.querySelector("#contact-form").innerHTML = "Your form has been successfully submitted!"

@@ -6,7 +6,8 @@ document.addEventListener('click', (event) => {
 			let email = document.querySelector("#email").value
 			let phone = document.querySelector("#phone").value
 			let message = document.querySelector("#message").value
-			request.open("POST", "/")
+			request.open("POST", "/contact")
+			request.setRequestHeader("Accept", "application/json")
 			request.onload = () => {
 				let data = request.responseText
 				console.log(typeof data)

@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	let button = document.querySelector("#form-submit")
 	if (button) {
 		button.onclick = (event) => {
+			console.log('this worked')
 			event.preventDefault()
 			const request = new XMLHttpRequest()
 			let name = document.querySelector("#name").value

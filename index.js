@@ -16,7 +16,7 @@ app.get('*', (req,res) =>{
 app.post('*', (req,res) => {
 	console.log('this happened')
 	console.log(req.body.name)
-	res.send(JSON.stringify({"success": true}))
+	res.json({"success": true})
 })
 
 const port = process.env.PORT || 5000;

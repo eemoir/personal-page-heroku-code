@@ -16,6 +16,7 @@ app.get('*', (req,res) =>{
 
 app.post('/contact', (req,res) => {
 	let data = req.body
+	console.log(data)
 	let message = new Message({
 		name: data.name,
 		phone: data.phone,

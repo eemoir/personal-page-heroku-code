@@ -8,6 +8,7 @@ const app = express();
 // Serve the static files from the React app
 app.use(express.static(path.join(__dirname, 'client/build')));
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 // Handles any requests that don't match the ones above
 app.get('*', (req,res) =>{
@@ -15,7 +16,7 @@ app.get('*', (req,res) =>{
 });
 
 app.post('/contact', (req,res) => {
-	let data = req.body
+	let data = JSON.parse(req.body)
 	console.log(data)
 	let message = new Message({
 		name: data.name,

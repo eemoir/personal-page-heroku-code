@@ -23,8 +23,8 @@ export default function Contact(props) {
 			<div className='button-div'>
 			<button type="button" id="form-submit">Submit</button>
 			</div>
-			<p id="error"></p>
 			</div>
+			<p id="error"></p>
 		</form>
 		</FadeIn>
 		)

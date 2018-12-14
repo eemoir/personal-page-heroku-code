@@ -17,10 +17,10 @@ app.get('*', (req,res) =>{
 app.post('/contact', (req,res) => {
 	let data = JSON.parse(req.body)
 	let message = new Message({
-		"name" = data.name,
-		"phone" = data.phone,
-		"email" = data.email,
-		"message" = data.message
+		name = data.name,
+		phone = data.phone,
+		email = data.email,
+		message = data.message
 	})
 	message.save(error => {
 		res.json({"success": "true"})

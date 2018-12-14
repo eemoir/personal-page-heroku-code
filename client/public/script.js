@@ -20,7 +20,6 @@ document.addEventListener('click', (event) => {
 			}).then(res => res.json())
 			.then(res => {
 				if (res['success']) {
-					console.log('success')
 					document.querySelector("#error").innerHTML = ""
 					document.querySelector("#contact-form").innerHTML = "Your form has been successfully submitted!"
 					return false

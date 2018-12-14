@@ -16,7 +16,6 @@ app.get('*', (req,res) =>{
 
 app.post('/contact', (req,res) => {
 	let data = req.body
-	console.log(data)
 	let message = new Message({
 		name: data.name,
 		phone: data.phone,
@@ -24,13 +23,12 @@ app.post('/contact', (req,res) => {
 		message: data.message
 	})
 	message.save(error => {
-		/*if (error) {
+		if (error) {
 			console.log(error)
 			res.json({"error": "message failed to save"})
 		} else {
 			res.json({"success": "true"})
-		}*/
-		res.json({"error": "message failed to save"})
+		}
 	})
 })
 

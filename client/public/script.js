@@ -14,7 +14,6 @@ document.addEventListener('click', (event) => {
 				console.log(JSON.parse(data))
 				if (JSON.parse(data)['success']) {
 					console.log('this worked')
-					document.location.reload()
 					document.querySelector("#contact-form").innerHTML = "Your form has been successfully submitted!"
 					return false
 				}

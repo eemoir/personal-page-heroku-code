@@ -24,8 +24,8 @@ export default function Contact(props) {
 			<button type="button" id="form-submit">Submit</button>
 			</div>
 			</div>
-			<p id="error"></p>
 		</form>
+		<p id="error"></p>
 		</FadeIn>
 		)
 }

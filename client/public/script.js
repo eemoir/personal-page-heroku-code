@@ -11,7 +11,6 @@ document.addEventListener('click', (event) => {
 				"phone": phone,
 				"message": message
 			}
-			console.log(data)
 			fetch('/contact', {
 				method: 'POST',
 				body: JSON.stringify(data),

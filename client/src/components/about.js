@@ -36,7 +36,7 @@ export default function About(props) {
 		and maintain a daily meditation practice.</p>
 
 		<p>While you're here, please check out my projects and/or drop me a line through my contact tab. 
-		Otherwise, you can find me on LinkedIn here, on CodeWars here, and on GitHub here.
+		Otherwise, you can find me on LinkedIn <a href="https://www.linkedin.com/in/erin-moir-834413a5/" target="_blank">here</a> and on GitHub <a href="https://github.com/eemoir" target="_blank">here</a>.
 		</p>
 		</div>
 		</FadeIn>

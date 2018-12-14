@@ -15,11 +15,12 @@ app.get('*', (req,res) =>{
 });
 
 app.post('/contact', (req,res) => {
+	let data = JSON.parse(req.body)
 	let message = new Message({
-		"name" = req.body.name,
-		"phone" = req.body.phone,
-		"email" = req.body.email,
-		"message" = req.body.message
+		"name" = data.name,
+		"phone" = data.phone,
+		"email" = data.email,
+		"message" = data.message
 	})
 	message.save(error => {
 		res.json({"success": "true"})

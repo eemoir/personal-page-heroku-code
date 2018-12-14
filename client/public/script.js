@@ -1,7 +1,31 @@
 document.addEventListener('click', (event) => {
 	if (event.target.id === "form-submit") {
 		event.preventDefault()
-			const request = new XMLHttpRequest()
+			let name = document.querySelector("#name").value
+			let email = document.querySelector("#email").value
+			let phone = document.querySelector("#phone").value
+			let message = document.querySelector("#message").value
+			let data = {
+				"name": name,
+				"email": email,
+				"phone": phone,
+				"message": message
+			}
+			fetch('/contact', {
+				method: 'POST',
+				body: JSON.stringify(data),
+				headers: {
+    				'Content-Type': 'application/json'
+  				}
+			}).then(res => res.json())
+			.then(res => {
+				if (res['success']) {
+					console.log('success')
+					document.querySelector("#contact-form").innerHTML = "Your form has been successfully submitted!"
+					return false
+				}
+			})
+			/*const request = new XMLHttpRequest()
 			let name = document.querySelector("#name").value
 			let email = document.querySelector("#email").value
 			let phone = document.querySelector("#phone").value
@@ -24,7 +48,7 @@ document.addEventListener('click', (event) => {
 			data.append('phone', phone)
 			data.append('message', message)
 			request.send(data)
-			return false
+			return false*/
 	}
 })
 

@@ -25,7 +25,7 @@ app.post('/contact', (req,res) => {
 	message.save(error => {
 		res.json({"success": "true"})
 		if (error) {
-			res.json("error": "message failed to save")
+			res.json({"error": "message failed to save"})
 		}
 	})
 })

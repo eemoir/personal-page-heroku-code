@@ -11,12 +11,10 @@ document.addEventListener('click', (event) => {
 				"phone": phone,
 				"message": message
 			}
+			console.log(data)
 			fetch('/contact', {
 				method: 'POST',
-				body: JSON.stringify(data),
-				headers: {
-    				'Content-Type': 'application/json'
-  				}
+				body: JSON.stringify(data)
 			}).then(res => res.json())
 			.then(res => {
 				if (res['success']) {

@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
+const Message = require('./message.js')
 
 const app = express();
 
@@ -14,8 +15,13 @@ app.get('*', (req,res) =>{
 });
 
 app.post('/contact', (req,res) => {
-	console.log(req.body.name)
-	res.json({"success": "true"})
+	let message = new Message(req.body)
+	message.save(error => {
+		res.json({"success": "true"})
+		if (error) {
+			res.json("error": "message failed to save")
+		}
+	})
 })
 
 const port = process.env.PORT || 5000;

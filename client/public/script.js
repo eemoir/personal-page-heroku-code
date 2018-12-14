@@ -21,8 +21,11 @@ document.addEventListener('click', (event) => {
 			.then(res => {
 				if (res['success']) {
 					console.log('success')
+					document.querySelector("#error").innerHTML = ""
 					document.querySelector("#contact-form").innerHTML = "Your form has been successfully submitted!"
 					return false
+				} else {
+					document.querySelector("#error").innerHTML = "There was an error submitting your form."
 				}
 			})
 			/*const request = new XMLHttpRequest()

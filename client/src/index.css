@@ -119,7 +119,7 @@ h2 {
   @media screen and (max-width: 18000px) {
     #navbar {
       height: 40px;
-      font-size: 1em;
+      font-size: 1.25em;
     }}
   @media screen and (max-width: 800px) {
     #navbar {
@@ -168,7 +168,7 @@ a:not(.active):focus {
 }
 @media screen and (max-width: 400px) {
   .contentContainer {
-    padding-top: 80px;
+    padding-top: 90px;
     width: 90%; 
   } 
   h1 {
@@ -186,7 +186,7 @@ a:not(.active):focus {
 #portrait {
   width: 30%;
   margin: 0px 10px 10px 0px;
-}
+}  
 
 form {
   display: table;
@@ -195,6 +195,13 @@ form {
   font-size: 20px;
   width: 60%;
   margin: auto; }
+
+@media screen and (max-width: 400px) {
+  form {
+    padding: 13px;
+    font-size: 10px;
+  }
+}
 
 .form-row {
   display: table-row; }

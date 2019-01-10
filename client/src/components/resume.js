@@ -10,13 +10,13 @@ export default function Resume(props) {
 		<ul>
 		<li>Collaborating with a veterinarian/entrepreneur to develop a point-of-care veterinary reference app for mobile devices (Android and iOS).</li>
 		<ul>
-			<li>App built with React Native/Redux and Expo, using an mLab MongoDB database hosted through Heroku.</li>
+			<li>App built with React Native/Redux and Expo, using an mLab MongoDB database.</li>
 		</ul>
 		</ul>
 		<h2>Expertise</h2>
 		<ul>
-		<li>Languages: JavaScript, Python, and Ruby.</li>
-		<li>Proficient in the following libraries/frameworks: Node, Django, Flask, React/React Native, Redux, Expo, Express, SQLPostgres, MongoDB, Jest. </li>
+		<li>Languages: JavaScript, Python, and PHP.</li>
+		<li>Proficient in the following libraries/frameworks: Node, Django, Flask, React/React Native, Redux, Laravel, Expo, Express, SQLPostgres, MongoDB, Jest. </li>
 		<li>Proficient in creating accessible progressive web applications with responsive design.</li>
 		</ul>
 		<h1>Other Work Experience</h1>

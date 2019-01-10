@@ -26,7 +26,7 @@ export default class App extends React.Component {
               <img className="col-xs-3 bannerimage" alt="" id="leftcat" src={leftCat}/>
               <div className="col-xs-6 bannertext">
               <h1 id="title">E R I N &ensp; M O I R</h1>
-              <h3 id="subtitle"><i>Software Developer</i></h3>
+              <h3 id="subtitle"><i>Web Developer</i></h3>
               <ul id="navbar" role="tablist" aria-label="Site Navigation">
                 {Object.keys(sections).map((item, index) => (<li className="plain-list" key={index}><NavLink 
                     className="navbar-item"

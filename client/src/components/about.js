@@ -10,10 +10,10 @@ export default function About(props) {
 		I've worked on both front and back end web development projects, with a focus 
 		on front-end JavaScript in a Node or Django context, as well as mobile application 
 		development with React Native 
-		and Redux. I'm fluent in JavaScript ES6, Python, and HTML, conversant in Ruby 
+		and Redux. I'm fluent in JavaScript, Python, PHP, and HTML, conversant in Ruby 
 		and C, and have worked with the following libraries and frameworks, among others: 
 		Node, 
-		Django, Flask, Express, SQL, MongoDB, React/React Native, Redux, CSS/Sass, 
+		Django, Flask, Laravel, Express, SQL, MongoDB, React/React Native, Redux, CSS/Sass, 
 		jQuery, Ajax, and Jest.</p>
 
 		<p>One of my favorite things about programming is the sheer number and quality of 

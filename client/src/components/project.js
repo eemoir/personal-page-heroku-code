@@ -9,7 +9,9 @@ export default function Projects(props) {
 					<h3><b>{obj.Name}</b></h3>
 					<p><b>Frameworks/libraries/languages: </b>{obj.Technologies}</p>
 					<p dangerouslySetInnerHTML={{__html: obj.Info}}></p>
-					<a target="_blank" href={obj.URL}>View on {obj.Platform}</a> 
+					{ obj.URL &&
+					<a target="_blank" href={obj.URL}>View on {obj.Platform}</a>
+					}
 				</div>
 				)
 		})}

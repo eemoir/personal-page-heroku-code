@@ -15,11 +15,10 @@ export default function About(props) {
 
 		<p>One of my favorite things about programming is the way it lets me combine skill, creativity and problem-solving 
 			to build helpful tools that other people can use. When my partner, Dr. Andy Weisenfeld, 
-			had an idea for an application that could make his job as a veterinarian easier by abstracting away some tedious 
-			and cumbersome calculations, I was more than happy to help out. Together we founded <a target="_blank" href="https://monotremestudios.com">Montreme Studios, 
-		LLC</a>, which currently has two mobile applications for veterinarians in development and another in the brainstorming stages. On the web development side, the project I've built that I'm most excited about is a meditation app called 
-		 <a href="https://dhammahelper.com" target="_blank">Dhamma Helper</a>. It uses a Laravel backend and several JavaScript libraries on the frontend
-		to deliver a meditation app with text and audio diaries, account metrics, and social sharing, among other features. For more technical information about it, 
+			had an idea for an application that could make his job as a veterinarian easier, I was more than happy to help out. Together we founded <a target="_blank" href="https://monotremestudios.com">Montreme Studios, 
+		LLC</a>. We are developing several apps designed to help veterinarians in the exam room by streamlining calculations and reference lookup. On the web development side, the project 
+		I've built that I'm most excited about is a meditation app called <a href="https://dhammahelper.com" target="_blank">Dhamma Helper</a>. 
+		It offers a selection of meditation timers, a text and audio diary, account metrics, and social sharing, among other features, using a Laravel backend and several JavaScript libraries on the frontend. For more technical information about it, 
 		please see the project's <a target="_blank" href="#">README page on GitHub</a>. I'm currently developing this project as a React Native mobile application, as well.</p>
 
 		<p>One of my other favorite things about programming is the sheer number and quality of 

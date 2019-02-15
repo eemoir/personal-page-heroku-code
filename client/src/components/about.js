@@ -18,7 +18,7 @@ export default function About(props) {
 			had an idea for an application that could make his job as a veterinarian easier by abstracting away some tedious 
 			and cumbersome calculations, I was more than happy to help out. Together we founded <a target="_blank" href="https://monotremestudios.com">Montreme Studios, 
 		LLC</a>, which currently has two mobile applications for veterinarians in development and another in the brainstorming stages. On the web development side, the project I've built that I'm most excited about is a meditation app called 
-		<a href="https://dhammahelper.com" target="_blank">Dhamma Helper</a>. It uses a Laravel backend and several JavaScript libraries on the frontend
+		 <a href="https://dhammahelper.com" target="_blank">Dhamma Helper</a>. It uses a Laravel backend and several JavaScript libraries on the frontend
 		to deliver a meditation app with text and audio diaries, account metrics, and social sharing, among other features. For more technical information about it, 
 		please see the project's <a target="_blank" href="#">README page on GitHub</a>. I'm currently developing this project as a React Native mobile application, as well.</p>
 

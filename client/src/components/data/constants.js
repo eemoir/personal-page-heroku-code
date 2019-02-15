@@ -16,7 +16,7 @@ const projectInfo = {
 		}
 	],
 
-	API: [
+	/*API: [
 		{ 
 			Name: "URL Shortener",
 			Technologies: "MongoDB, Node, Express",
@@ -52,7 +52,7 @@ const projectInfo = {
 			URL: "https://useful-quince.glitch.me/",
 			Platform: "Glitch"
 		}
-	], 
+	], */
 
 	FrontEnd: [
 		{
@@ -88,6 +88,20 @@ const projectInfo = {
 
 	Fullstack: [
 		{
+			Name: 'Dhamma Helper/Meditation App',
+			Technologies: 'Laravel, WebAudioRecorder.js, Chart.js, Bootstrap, MySQL',
+			Info: "My pet project. A meditation timer/app with text and audio diaries, account metrics, social sharing, and many other features. Please see the project's <a target='_blank' href='#'>GitHub README</a> for more detailed information.",
+			URL: 'https://dhammahelper.com',
+			Platform: 'inmotion hosting'
+		},
+		{
+			Name: 'This Website!',
+			Technologies: 'Node, Express, React, MongoDB',
+			Info: 'This personal page was made with a Node/Express/MongoDB backend with a React frontend, hosted on Heroku.',
+			URL: null,
+			Platform: null
+		},
+		{
 			Name: "Book Reviews",
 			Technologies: "Flask, PostgreSQL, SQLAlchemy, jQuery, passlib",
 			Info: "Register and log in to search for and leave reviews and ratings of books by Title, Author or ISBN. Also includes an API that returns book data. For a more detailed description/instructions, see the README file <a href='https://github.com/eemoir/book-reviews/blob/master/README.md' target='_blank'>here</a>.",
@@ -101,13 +115,6 @@ const projectInfo = {
 			URL: 'https://moir-chat-app-heroku.herokuapp.com/',
 			Platform: 'Heroku'
 		},
-		/*{
-			Name: 'Pizza Restaurant',
-			Technologies: 'Django',
-			Info: 'This timer makes it easy to implement the Pomorodo Technique, a time management method in which a period of work is broken down into recurring intervals of work time and break time.',
-			URL: 'https://snack.expo.io/@chicorydove/pomodoro-timer',
-			Platform: 'snack.expo.io'
-		},*/
 	]
 }
 

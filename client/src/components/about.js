@@ -1,6 +1,7 @@
 import React from 'react'
 import FadeIn from 'react-fade-in'
 import portrait from '../images/about-pic.jpg'
+import Copyright from './copyright'
 
 export default function About(props) {
 	return (
@@ -15,7 +16,7 @@ export default function About(props) {
 
 		<p>One of my favorite things about programming is the way it lets me combine skill, creativity and problem-solving 
 			to build helpful tools that other people can use. When my partner, Dr. Andy Weisenfeld, 
-			had an idea for an application that could make his job as a veterinarian easier, I was more than happy to help out. Together we founded <a target="_blank" href="https://monotremestudios.com">Montreme Studios, 
+			had an idea for an application that could make his job as a veterinarian easier, I was more than happy to help out. Together, we founded <a target="_blank" href="https://monotremestudios.com">Montreme Studios, 
 		LLC</a>. We are developing several apps designed to help veterinarians in the exam room by streamlining calculations and reference lookup. On the web development side, the project 
 		I've built that I'm most excited about is a meditation app called <a href="https://dhammahelper.com" target="_blank">Dhamma Helper</a>. 
 		It offers a selection of meditation timers, a text and audio diary, account metrics, and social sharing, among other features, using a Laravel backend and several JavaScript libraries on the frontend. For more technical information about it, 
@@ -44,6 +45,9 @@ export default function About(props) {
 		Otherwise, you can find me on LinkedIn <a href="https://www.linkedin.com/in/erin-moir-834413a5/" target="_blank">here</a> and on GitHub <a href="https://github.com/eemoir" target="_blank">here</a>.
 		</p>
 		</div>
+		<br/>
+		<br/>
+		<Copyright />
 		</FadeIn>
 		)
 }

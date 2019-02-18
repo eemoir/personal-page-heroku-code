@@ -22,13 +22,13 @@ export default function Resume(props) {
 		<li>Proficient in the following technologies: Node, Django, Flask, Laravel, React/React Native, Redux, Expo, Express, SQL, Postgres, MongoDB, Jest, Git.</li>
 		</ul>
 		<h1>Other Work Experience</h1>
-		<h2>Chemistry Teacher, NYC Dept. of Education, New York, NY, June 2016 - Jan. 2018</h2>
+		<h2>Chemistry Teacher, NYC Dept. of Education, New York, NY, Jun. 2016 - Jan. 2018</h2>
 		<ul>
 		<li>Working collaboratively with a grade team, developed curriculum and taught four sections of 11th grade chemistry at South Bronx Preparatory.</li>
 		<li>Increased number of students taking the Regents Exam from one to seven, with six passing, and received a “Highly Effective” rating from the Board of Education.
 </li>
 		</ul>
-		<h2>Union Organizer, UAW (Graduate Workers of Columbia), New York, NY, Jan. 2016 - June 2016</h2>
+		<h2>Union Organizer, UAW (Graduate Workers of Columbia), New York, NY, Jan. 2016 - Jun. 2016</h2>
 		<ul>
 		<li>Conducted surveys on benefits usage and professional development for graduate student TAs and RAs; publicized union events. </li>
 		</ul>
@@ -43,7 +43,7 @@ export default function Resume(props) {
 		<li>Developed curriculum for and taught adult citizenship courses.</li>
 		<li>Successfully secured capital grants of $20,000 from the Boettcher Foundation and $25,000 from the El Pomar Foundation to fund the building of a new library in Evans, CO.</li>
 		</ul>
-		<h2>Fulbright English Teaching Assistant, Fulbright Commission, Germany, Sep. 2011 - June 2012</h2>
+		<h2>Fulbright English Teaching Assistant, Fulbright Commission, Germany, Sep. 2011 - Jun. 2012</h2>
 		<ul>
 		<li>Developed curriculum for public secondary school English classes in Norderstedt, Germany, using a focus on young adult novels.</li>
 		<li>Co-taught English classes in grades 6, 10 and 13 alongside tenured faculty.</li>

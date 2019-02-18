@@ -4,7 +4,6 @@ import './App.css';
 import About from './components/about'
 import Portfolio from './components/portfolio'
 import Resume from './components/resume'
-import Copyright from './components/copyright'
 import Contact from './components/contact'
 import leftCat from './images/cat(left).jpg'
 import rightCat from './images/cat(right).jpg'
@@ -49,9 +48,6 @@ export default class App extends React.Component {
             <Route path='/contact' component={Contact} />
           </div>
           </main>
-          <br />
-        <br />
-        <Copyright />
         </div>
       </HashRouter>
     );

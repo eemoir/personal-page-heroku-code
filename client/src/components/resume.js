@@ -67,6 +67,9 @@ export default function Resume(props) {
 		<li>Award-winning classical cellist and pianist with extensive knowledge of music theory.</li>
 		</ul>
 		</div>
+		<br />
+        <br />
+        <Copyright />
 		</FadeIn>
 		)
 }

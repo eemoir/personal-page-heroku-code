@@ -2,6 +2,7 @@ import React from 'react'
 import projectInfo from './data/constants'
 import Projects from './project'
 import FadeIn from 'react-fade-in'
+import Copyright from './copyright'
 
 
 export default function Portfolio(props) {
@@ -17,6 +18,9 @@ export default function Portfolio(props) {
 			{/*<h1 className='project-category'><b>Back End/API Projects</b></h1>
 				<Projects projects={projectInfo.API}/>*/}
 		</div>
+		<br />
+        <br />
+        <Copyright />
 		</FadeIn>
 		)
 }

@@ -1,5 +1,7 @@
 import React from 'react'
 import FadeIn from 'react-fade-in'
+import Copyright from './copyright'
+
 
 const GoogleForm = "<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLScOnzgKoqpq0uvErW7EuYMT-IzA10TAhNqspKjGV1tY1qFLNw/viewform?embedded=true\" width=\"640\" height=\"893\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading...</iframe>"
 export default function Contact(props) {
@@ -26,6 +28,9 @@ export default function Contact(props) {
 			</div>
 		</form>
 		<p id="error"></p>
+		<br />
+        <br />
+        <Copyright />
 		</FadeIn>
 		)
 }

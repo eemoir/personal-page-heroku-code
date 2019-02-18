@@ -1,6 +1,8 @@
 import React from 'react'
 import FadeIn from 'react-fade-in'
 import portrait from '../images/about-pic.jpg'
+import Copyright from './copyright'
+
 
 export default function About(props) {
 	return (
@@ -44,6 +46,9 @@ export default function About(props) {
 		Otherwise, you can find me on LinkedIn <a href="https://www.linkedin.com/in/erin-moir-834413a5/" target="_blank" rel="noopener noreferrer">here</a> and on GitHub <a href="https://github.com/eemoir" target="_blank" rel="noopener noreferrer">here</a>.
 		</p>
 		</div>
+		<br />
+        <br />
+        <Copyright />
 		</FadeIn>
 		)
 }

@@ -7,6 +7,7 @@ import Copyright from './copyright'
 export default function About(props) {
 	return (
 		<FadeIn delay={400}>
+		<div>
 			<div aria-labelledby="ABOUT">
 			<p><img id="portrait" src={portrait} align="left" alt=""/>Welcome! My name is Erin, and I'm a fullstack web and mobile application developer. 
 			Although I've worked on both front and back end projects, my focus is 
@@ -49,6 +50,7 @@ export default function About(props) {
 		<br />
         <br />
         <Copyright />
+		</div>
 		</FadeIn>
 		)
 }

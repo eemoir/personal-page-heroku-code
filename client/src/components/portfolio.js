@@ -8,6 +8,7 @@ import Copyright from './copyright'
 export default function Portfolio(props) {
 	return (
 		<FadeIn delay={400}>
+		<div>
 		<div className='portfolio-container' aria-labelledby="PORTFOLIO">
 			<h1 className='project-category'><b>Fullstack Web Development Projects</b></h1>
 				<Projects projects={projectInfo.Fullstack}/>
@@ -21,6 +22,7 @@ export default function Portfolio(props) {
 		<br />
         <br />
         <Copyright />
+		</div>
 		</FadeIn>
 		)
 }

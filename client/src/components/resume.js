@@ -5,6 +5,7 @@ import Copyright from './copyright'
 export default function Resume(props) {
 	return (
 		<FadeIn delay={400}>
+		<div>
 		<div aria-labelledby="RESUME">
 		<h1>Software Development</h1>
 		<h2>Freelance Software Developer, July 2018 - present</h2>
@@ -71,6 +72,7 @@ export default function Resume(props) {
 		<br />
         <br />
         <Copyright />
+		</div>
 		</FadeIn>
 		)
 }

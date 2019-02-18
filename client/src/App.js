@@ -50,6 +50,9 @@ export default class App extends React.Component {
           </div>
           </main>
         </div>
+        <br />
+        <br />
+        <Copyright />
       </HashRouter>
     );
   }

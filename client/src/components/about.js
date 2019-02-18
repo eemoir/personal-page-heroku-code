@@ -6,7 +6,7 @@ export default function About(props) {
 	return (
 		<FadeIn delay={400}>
 			<div aria-labelledby="ABOUT">
-			<p><img id="portrait" src={portrait} align="left" />Welcome! My name is Erin, and I'm a fullstack web and mobile application developer. 
+			<p><img id="portrait" src={portrait} align="left" alt=""/>Welcome! My name is Erin, and I'm a fullstack web and mobile application developer. 
 			Although I've worked on both front and back end projects, my focus is 
 		on front-end JavaScript, as well as mobile application development with React Native 
 		and Redux. I'm fluent in JavaScript, Python, PHP, and HTML, conversant in Ruby 
@@ -15,7 +15,7 @@ export default function About(props) {
 
 		<p>One of my favorite things about programming is the way it lets me combine skill, creativity and problem-solving 
 			to build helpful tools that other people can use. When my partner, Dr. Andy Weisenfeld, 
-			had an idea for an application that could make his job as a veterinarian easier, I was more than happy to help out. Together, we founded <a target="_blank" href="https://monotremestudios.com">Montreme Studios, 
+			had an idea for an application that could make his job as a veterinarian easier, I was more than happy to help out. Together, we founded <a target="_blank" rel="noopener noreferrer" href="https://monotremestudios.com">Montreme Studios, 
 		LLC</a>. We are developing several apps designed to help veterinarians in the exam room by streamlining calculations and reference lookup. On the web development side, the project 
 		I've built that I'm most excited about is a meditation app called <a href="https://dhammahelper.com" target="_blank" rel="noopener noreferrer">Dhamma Helper</a>. 
 		It offers a selection of meditation timers, a text and audio diary, account metrics, and social sharing, among other features, using a Laravel backend and several JavaScript libraries on the frontend. For more technical information about it, 

@@ -1,5 +1,6 @@
 import React from 'react'
 import FadeIn from 'react-fade-in'
+import Copyright from './copyright'
 
 export default function Resume(props) {
 	return (

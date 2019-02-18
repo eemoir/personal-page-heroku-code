@@ -10,16 +10,16 @@ export default function Resume(props) {
 		<h1>Software Development</h1>
 		<h2>Lead Software Engineer and Co-Owner, Monotreme Studios, LLC, Jan. 2019 - present</h2>
 		<ul>
-		<li>•	Collaborating with a veterinarian/entrepreneur to develop point-of-care veterinary reference apps for mobile devices that are currently in development.</li>
+		<li>Collaborating with a veterinarian/entrepreneur to develop point-of-care veterinary reference apps for mobile devices (currently in development).</li>
 		<ul>
-			<li>•	Company specializes in applications designed to streamline calculations and reference lookup in the exam room.</li>
+			<li>Company specializes in applications designed to streamline calculations and reference lookup in the exam room.</li>
 		</ul>
 		</ul>
 		<h2>Expertise</h2>
 		<ul>
 		<li>Languages: JavaScript, Python, and PHP.</li>
 		<li>Proficient in building progressive, accessible, high-performing web and mobile applications with responsive design.</li>
-		<li>•	Proficient in the following technologies: Node, Django, Flask, Laravel, React/React Native, Redux, Expo, Express, SQL, Postgres, MongoDB, Jest, Git.</li>
+		<li>Proficient in the following technologies: Node, Django, Flask, Laravel, React/React Native, Redux, Expo, Express, SQL, Postgres, MongoDB, Jest, Git.</li>
 		</ul>
 		<h1>Other Work Experience</h1>
 		<h2>Chemistry Teacher, NYC Dept. of Education, New York, NY, June 2016 - Jan. 2018</h2>

@@ -1,7 +1,6 @@
 import React from 'react'
 import FadeIn from 'react-fade-in'
 import portrait from '../images/about-pic.jpg'
-import Copyright from './copyright'
 
 export default function About(props) {
 	return (
@@ -18,22 +17,22 @@ export default function About(props) {
 			to build helpful tools that other people can use. When my partner, Dr. Andy Weisenfeld, 
 			had an idea for an application that could make his job as a veterinarian easier, I was more than happy to help out. Together, we founded <a target="_blank" href="https://monotremestudios.com">Montreme Studios, 
 		LLC</a>. We are developing several apps designed to help veterinarians in the exam room by streamlining calculations and reference lookup. On the web development side, the project 
-		I've built that I'm most excited about is a meditation app called <a href="https://dhammahelper.com" target="_blank">Dhamma Helper</a>. 
+		I've built that I'm most excited about is a meditation app called <a href="https://dhammahelper.com" target="_blank" rel="noopener noreferrer">Dhamma Helper</a>. 
 		It offers a selection of meditation timers, a text and audio diary, account metrics, and social sharing, among other features, using a Laravel backend and several JavaScript libraries on the frontend. For more technical information about it, 
-		please see the project's <a target="_blank" href="#">README page on GitHub</a>. I'm currently developing this project as a React Native mobile application, as well.</p>
+		please see the project's <a target="_blank" rel="noopener noreferrer" href="https://github.com/eemoir/dhamma_helper">README page on GitHub</a>. I'm currently developing this project as a React Native mobile application, as well.</p>
 
 		<p>One of my other favorite things about programming is the sheer number and quality of 
 		open-source resources available, which have been particularly helpful for a
 		self-taught programmer like me. Some of my favorite sources of coding knowledge are 
 		Harvard CS50's
-		series on <a target="_blank" href="https://www.edx.org">www.edx.org</a>, which covers 
+		series on <a target="_blank" rel="noopener noreferrer" href="https://www.edx.org">www.edx.org</a>, which covers 
 		everything from the 
 		fundamentals of Computer Science to web and app development and even game development.
 		UPenn's
-		Introduction to Web Development, also on <a target="_blank" href="https://www.edx.org">www.edx.org</a>, 
+		Introduction to Web Development, also on <a target="_blank" href="https://www.edx.org" rel="noopener noreferrer">www.edx.org</a>, 
 		is another course from which I learned a lot. I've also worked my way through the 
-		curriculum at <a target="_blank" href="https://www.freecodecamp.org">www.freecodecamp.org</a>, and 
-		there are few things I enjoy more than keeping my coding chops fresh with the puzzles at <a target="_blank" href="https://www.codewars.com">www.codewars.com</a></p>
+		curriculum at <a target="_blank" href="https://www.freecodecamp.org" rel="noopener noreferrer">www.freecodecamp.org</a>, and 
+		there are few things I enjoy more than keeping my coding chops fresh with the puzzles at <a target="_blank" rel="noopener noreferrer" href="https://www.codewars.com">www.codewars.com</a></p>
 
 		<p>In my previous life, I was a chemistry teacher in the New York City public schools 
 		and earned a MA in German Literature from Columbia University (go figure). In my free time, 
@@ -42,12 +41,9 @@ export default function About(props) {
 		and maintain a daily meditation practice.</p>
 
 		<p>While you're here, please check out my projects and/or drop me a line through my contact tab. 
-		Otherwise, you can find me on LinkedIn <a href="https://www.linkedin.com/in/erin-moir-834413a5/" target="_blank">here</a> and on GitHub <a href="https://github.com/eemoir" target="_blank">here</a>.
+		Otherwise, you can find me on LinkedIn <a href="https://www.linkedin.com/in/erin-moir-834413a5/" target="_blank" rel="noopener noreferrer">here</a> and on GitHub <a href="https://github.com/eemoir" target="_blank" rel="noopener noreferrer">here</a>.
 		</p>
 		</div>
-		<br/>
-		<br/>
-		<Copyright />
 		</FadeIn>
 		)
 }

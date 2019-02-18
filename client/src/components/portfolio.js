@@ -2,6 +2,7 @@ import React from 'react'
 import projectInfo from './data/constants'
 import Projects from './project'
 import FadeIn from 'react-fade-in'
+import Copyright from './copyright'
 
 
 export default function Portfolio(props) {

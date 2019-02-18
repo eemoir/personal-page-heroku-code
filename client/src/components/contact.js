@@ -7,6 +7,7 @@ const GoogleForm = "<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLScOnz
 export default function Contact(props) {
 	return (
 		<FadeIn delay={400}>
+		<div>
 		<form aria-labelledby="CONTACT" id="contact-form" method="POST">
 			<div className='form-row'>
 				<label htmlFor="name" className='form-label'>Name:</label><input id="name" name="name" className='input' type='text' autoComplete="on" required/>
@@ -31,6 +32,7 @@ export default function Contact(props) {
 		<br />
         <br />
         <Copyright />
+		</div>
 		</FadeIn>
 		)
 }

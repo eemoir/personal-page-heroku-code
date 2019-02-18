@@ -11,9 +11,7 @@ export default function Resume(props) {
 		<h2>Lead Software Engineer and Co-Owner, Monotreme Studios, LLC, Jan. 2019 - present</h2>
 		<ul>
 		<li>Collaborating with a veterinarian/entrepreneur to develop point-of-care veterinary reference apps for mobile devices (currently in development).</li>
-		<ul>
 			<li>Company specializes in applications designed to streamline calculations and reference lookup in the exam room.</li>
-		</ul>
 		</ul>
 		<h2>Expertise</h2>
 		<ul>

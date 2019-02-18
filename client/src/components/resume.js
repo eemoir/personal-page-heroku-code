@@ -15,9 +15,9 @@ export default function Resume(props) {
 		</ul>
 		<h2>Expertise</h2>
 		<ul>
-		<li>Languages: JavaScript, Python, and PHP.</li>
+		<li>Languages: JavaScript, Python, PHP, and HTML5.</li>
 		<li>Proficient in building progressive, accessible, high-performing web and mobile applications with responsive design.</li>
-		<li>Proficient in the following technologies: Node, Django, Flask, Laravel, React/React Native, Redux, Expo, Express, SQL, Postgres, MongoDB, Jest, Git.</li>
+		<li>Proficient in the following technologies: Node, Django, Flask, Laravel, React/React Native, Redux, Expo, Express, SQL, Postgres, MongoDB, Jest, Github, SASS, Heroku, inmotion, cPanel, PHPMyAdmin, Bootstrap, socket.io, jQuery.</li>
 		</ul>
 		<h1>Other Work Experience</h1>
 		<h2>Chemistry Teacher, NYC Dept. of Education, New York, NY, Jun. 2016 - Jan. 2018</h2>

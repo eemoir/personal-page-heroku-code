@@ -49,10 +49,10 @@ export default class App extends React.Component {
             <Route path='/contact' component={Contact} />
           </div>
           </main>
+          <br />
+        <br />
+        <Copyright />
         </div>
-        <br />
-        <br />
-        <div style="text-align: center"><small>&copy; 2019 Monotreme Studios, LLC.</small></div>
       </HashRouter>
     );
   }
